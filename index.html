@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- tailwindcss cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Tailwind Css</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Project Art</title>
 </head>
 <body>
     
-    <main class="bg-gray-950 w-full h-screen text-white font-thin">
+    <main class="font-[Poppins] bg-gray-950 w-full h-screen text-white font-light">
+        <!-- section 1 -->
         <nav class="h-20 flex items-center justify-between px-20">
             <div class="flex items-center justify-between">
                 <span class="w-4 h-4 bg-cyan-400 rotate-45"></span>
@@ -25,6 +32,23 @@
                 <a href="#" class="text-gray-900 py-2 px-4 bg-cyan-400 rounded">Sign up</a>
             </div>
         </nav>
+        <div class="flex flex-col justify-center items-center h-[calc(100vh-5rem)] relative">
+            
+            <span class="bg-cyan-400 w-36 h-36 absolute top-[35%] right-[55%] blur-3xl"></span>
+            <span class="bg-cyan-500 w-36 h-36 absolute bottom-[55%] left-[53%] blur-3xl"></span>
+            <img class="w-64 mb-5 hue-rotate-[25deg]" src="./img/projects-Art.png" alt="">
+            
+            <h1 class="text-4xl">THIS IS THE <span class="font-bold text-cyan-400">FUTURE</span></h1>
+            <div class="flex items-center justify-between font-bold">
+                <div class="bg-gray-400 h-1 w-44 rounded mr-2"></div>
+                <h2 class="text-gray-400 underline text-xl">START NOW!</h2>
+            </div>
+            <div class="relative bottom-[-5rem]">
+                <i class="fa-solid fa-chevron-down text-4xl text-gray-400"></i>
+            </div>
+        </div>
+        
+        <!-- section 2 -->
     </main>
 
 </body>
